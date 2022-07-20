@@ -10,7 +10,7 @@
 		},
 		{
 			name: 'Experiments',
-			href: '/experiments'
+			href: '/experiments/list'
 		},
 		{
 			name: 'Contact',
