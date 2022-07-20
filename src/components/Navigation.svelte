@@ -1,4 +1,5 @@
-<script>
+<script lang="ts">
+	const basePath = '/jacksonsalopekcom'
 	const routes = [
 		{
 			name: 'Resume',
@@ -24,14 +25,14 @@
 		<div class="close">
 			<span class="hidden">X</span>
 		</div>
-		<h1 class="title"><a href="/">Jackson Salopek</a></h1>
+		<h1 class="title"><a href={basePath}>Jackson Salopek</a></h1>
 		<div class="resize">
 			<span class="hidden">Resize</span>
 		</div>
 	</div>
 	<nav>
 		{#each routes as route}
-			<a href={route.href}>{route.name}</a>
+			<a href={basePath + route.href}>{route.name}</a>
 		{/each}
 	</nav>
 </header>

@@ -14,9 +14,16 @@ const config = {
 	],
 
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({
+			pages: 'build',
+			assets: 'build',
+			fallback: null
+		}),
 		prerender: {
 			default: true
+		},
+		paths: {
+			base: '/jacksonsalopekcom'
 		}
 	}
 }
