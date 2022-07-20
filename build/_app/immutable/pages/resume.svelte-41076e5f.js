@@ -1,1 +1,0 @@
-import{S as i,i as l,s as o,l as c,m as h,n as m,h as a,p as u,b as d,E as t}from"../chunks/index-142cf791.js";function f(n){let e;return{c(){e=c("div"),this.h()},l(s){e=h(s,"DIV",{class:!0}),m(e).forEach(a),this.h()},h(){u(e,"class","js-resume")},m(s,r){d(s,e,r)},p:t,i:t,o:t,d(s){s&&a(e)}}}class _ extends i{constructor(e){super(),l(this,e,null,f,o,{})}}export{_ as default};
