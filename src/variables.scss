@@ -1,0 +1,34 @@
+/* Variables and mixins declared here will be available in all other SCSS files */
+
+$primary-light: #484848;
+$primary: #212121;
+$primary-dark: #000;
+$secondary-light: #6abf69;
+$secondary: #388e3c;
+$secondary-dark: #00600f;
+$monospace: 'Inconsolata', Menlo, Chicago, monospace;
+$base_font_size: 18px;
+$title_font_size: 18px;
+$ui_line_size: 2px;
+$pad_sm: 0.2rem;
+$pad_md: 0.4rem;
+$pad_lg: 1rem;
+
+@mixin checkedBG($color, $size) {
+	// Squares gradient background - thanks @leaverou 🙌
+	// http://lea.verou.me/css3patterns/
+	$sq: $color;
+	$sq_size: $size;
+
+	background: linear-gradient(45deg, $sq 25%, transparent 25%, transparent 75%, $sq 75%, $sq),
+		linear-gradient(45deg, $sq 25%, transparent 25%, transparent 75%, $sq 75%, $sq);
+	background-color: #000;
+	background-size: $sq_size $sq_size;
+	background-position: 0 0, calc($sq_size / 2) calc($sq_size / 2);
+}
+
+@mixin hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+}

@@ -1,0 +1,436 @@
+{
+	"basics": {
+		"name": "Jackson Salopek",
+		"label": "@teoti-io",
+		"image": "https://avatars.githubusercontent.com/u/8930210?v=4",
+		"email": "",
+		"phone": "",
+		"url": "https://jacksonsalopek.com",
+		"summary": "Full-stack developer looking for a full-time position with high employee satisfaction and a good work-life balance, strong mentorship, exciting technology, and the ability to progress.",
+		"profiles": [
+			{
+				"network": "gitconnected",
+				"username": "jacksonsalopek",
+				"url": "https://gitconnected.com/jacksonsalopek"
+			},
+			{
+				"network": "GitHub",
+				"username": "jacksonsalopek",
+				"url": "https://github.com/jacksonsalopek"
+			},
+			{
+				"network": "LinkedIn",
+				"url": "https://www.linkedin.com/in/jackson-salopek/",
+				"username": "jackson-salopek"
+			}
+		],
+		"headline": "",
+		"blog": null,
+		"yearsOfExperience": 6,
+		"username": "jacksonsalopek",
+		"locationAsString": "Virginia, United States",
+		"region": "Virginia, United States",
+		"karma": 10,
+		"id": "b5e5081c-b346-47ab-9ddb-95d66e577c54",
+		"followers": 4,
+		"following": 0,
+		"picture": "https://avatars.githubusercontent.com/u/8930210?v=4",
+		"website": "https://jacksonsalopek.com"
+	},
+	"skills": [
+		{
+			"name": "JavaScript",
+			"level": "Expert",
+			"keywords": ["Web Development", "Backend Development", "Full-Stack Development"],
+			"rating": 5,
+			"yearsOfExperience": 7
+		},
+		{
+			"name": "TypeScript",
+			"level": "Expert",
+			"keywords": ["Web Development", "Backend Development", "Full-Stack Development"],
+			"rating": 5,
+			"yearsOfExperience": 4
+		},
+		{
+			"name": "HTML",
+			"level": "Expert",
+			"keywords": ["Web Development"],
+			"rating": 5,
+			"yearsOfExperience": 7
+		},
+		{
+			"name": "CSS",
+			"level": "Expert",
+			"keywords": ["Web Styling", "Web Development"],
+			"rating": 5,
+			"yearsOfExperience": 7
+		},
+		{
+			"name": "Node.JS",
+			"level": "Expert",
+			"keywords": ["Backend Development", "Web Development", "Full-Stack Development"],
+			"rating": 5,
+			"yearsOfExperience": 4
+		},
+		{
+			"name": "Vue.js",
+			"level": "Expert",
+			"keywords": ["Web Development", "JavaScript Frameworks", "Vue 2", "Vue 3"],
+			"rating": 5,
+			"yearsOfExperience": 3
+		},
+		{
+			"name": "SCSS & SASS",
+			"level": "Advanced",
+			"keywords": ["Web Styling", "Web Development"],
+			"rating": 4,
+			"yearsOfExperience": 2
+		},
+		{
+			"name": "Angular",
+			"level": "Advanced",
+			"keywords": ["Web Development", "JavaScript Frameworks"],
+			"rating": 4,
+			"yearsOfExperience": 3
+		},
+		{
+			"name": "Swift",
+			"level": "Advanced",
+			"keywords": ["Full-Stack Development", "Mobile Development", "iOS"],
+			"rating": 4,
+			"yearsOfExperience": 2
+		},
+		{
+			"name": "Svelte",
+			"level": "Advanced",
+			"keywords": ["Web Development", "JavaScript Frameworks"],
+			"rating": 4,
+			"yearsOfExperience": 1
+		},
+		{
+			"name": "AWS",
+			"level": "Advanced",
+			"keywords": [
+				"Cloud",
+				"Infrastructure",
+				"DynamoDB",
+				"Lambda",
+				"SNS",
+				"SQS",
+				"SES",
+				"ELB",
+				"ECS",
+				"Route53"
+			],
+			"rating": 4,
+			"yearsOfExperience": 2
+		},
+		{
+			"name": "NoSQL",
+			"level": "Advanced",
+			"keywords": ["Database", "Backend Development"],
+			"rating": 4,
+			"yearsOfExperience": 4
+		},
+		{
+			"name": "Java",
+			"level": "Intermediate",
+			"keywords": ["Backend Development"],
+			"rating": 3,
+			"yearsOfExperience": 3
+		},
+		{
+			"name": "React",
+			"level": "Intermediate",
+			"keywords": ["JavaScript Frameworks", "Web Development"],
+			"rating": 3,
+			"yearsOfExperience": 1
+		},
+		{
+			"name": "Vite",
+			"level": "Intermediate",
+			"keywords": ["Build Tools", "Web Development"],
+			"rating": 3,
+			"yearsOfExperience": 1
+		},
+		{
+			"name": "GraphQL",
+			"level": "Intermediate",
+			"keywords": ["Full-Stack Development", "Backend Development"],
+			"rating": 3,
+			"yearsOfExperience": 1
+		},
+		{
+			"name": "C#",
+			"level": "Intermediate",
+			"keywords": ["Backend Development", ".NET"],
+			"rating": 3,
+			"yearsOfExperience": 2
+		},
+		{
+			"name": "SQL",
+			"level": "Intermediate",
+			"keywords": ["Backend Development", "Database"],
+			"rating": 3,
+			"yearsOfExperience": 2
+		},
+		{
+			"name": "Objective-C",
+			"level": "Intermediate",
+			"keywords": ["Mobile Development", "iOS"],
+			"rating": 3,
+			"yearsOfExperience": 1
+		},
+		{
+			"name": "Microsoft Azure",
+			"level": "Advanced",
+			"keywords": ["Infrastructure", "CosmosDB", "Azure Functions"],
+			"rating": 4,
+			"yearsOfExperience": 2
+		},
+		{
+			"name": "Shell Languages (SH, PS)",
+			"level": "Advanced",
+			"keywords": ["Tools", "Bash", "PowerShell"],
+			"rating": 4,
+			"yearsOfExperience": 4
+		},
+		{
+			"name": "Git",
+			"level": "Advanced",
+			"keywords": ["Tools"],
+			"rating": 4,
+			"yearsOfExperience": 6
+		}
+	],
+	"projects": [
+		{
+			"name": "tabcloser",
+			"description": "",
+			"url": "",
+			"highlights": [],
+			"keywords": [],
+			"roles": [],
+			"startDate": "",
+			"endDate": "",
+			"entity": "",
+			"type": "",
+			"displayName": "tabcloser",
+			"website": "",
+			"summary": "",
+			"primaryLanguage": "TypeScript",
+			"languages": ["JavaScript", "HTML", "TypeScript", "CSS"],
+			"libraries": [],
+			"githubUrl": "https://github.com/TabCloser/tabcloser",
+			"repositoryUrl": "https://github.com/TabCloser/tabcloser",
+			"start": { "year": null, "month": null, "day": null },
+			"end": { "year": null, "month": null, "day": null },
+			"images": [],
+			"videos": []
+		},
+		{
+			"name": "teoti",
+			"description": "",
+			"url": "",
+			"highlights": [],
+			"keywords": [],
+			"roles": [],
+			"startDate": "",
+			"endDate": "",
+			"entity": "",
+			"type": "",
+			"displayName": "Teoti",
+			"website": "",
+			"summary": "",
+			"primaryLanguage": "",
+			"languages": [],
+			"libraries": [],
+			"githubUrl": "",
+			"repositoryUrl": "",
+			"start": { "year": null, "month": null, "day": null },
+			"end": { "year": null, "month": null, "day": null },
+			"images": [],
+			"videos": []
+		}
+	],
+	"work": [
+		{
+			"name": "Capital One",
+			"location": "McLean, VA",
+			"description": "",
+			"position": "Senior Associate Software Engineer",
+			"url": "https://capitalone.com",
+			"startDate": "2019-08-01",
+			"endDate": "",
+			"summary": "",
+			"highlights": [
+				"Utilized Swift on the flagship iOS mobile app, EASE, to engineer efficient & reusable code for creating features, facilitating cross-team development and performance improvements",
+				"Assembled the Focus Task Definitions UI, a drag-and-drop interface for creating user workflows and generating UI code based on the workflows that the user has input using React",
+				"Leveraged Vue 3 to develop the 2nd generation Content Management System, Chariot, as well as the internal Rewards Library for sales reps in a full-stack, cross-functional team context",
+				"Composed the Enterprise Document Center using TypeScript to search and retrieve millions of documents, facilitating the Statements & Documents feature in Capital One iOS, Android, and Web",
+				"Deployed resilient and managed infrastructure on AWS such as cross-region ECS instances and failover policies to support the Statements & Documents feature",
+				"Aided management by onboarding new team members, conveying development processes and statuses to product owners, and dividing work amongst the team"
+			],
+			"isCurrentRole": true,
+			"start": { "year": 2019, "month": 8 },
+			"end": {},
+			"company": "Capital One",
+			"website": "https://capitalone.com"
+		},
+		{
+			"name": "Equifax",
+			"location": "McLean, VA",
+			"description": "",
+			"position": "Development Intern",
+			"url": "https://datadrivenmarketing.equifax.com/",
+			"startDate": "2017-05-01",
+			"endDate": "2018-08-01",
+			"summary": "",
+			"highlights": [
+				"Built Visual Insights, a single-page internal sales application used by upper management for viewing sales performance in JavaScript without jQuery",
+				"Used Angular 6, TypesScript SCSS, .NET Framework, and Microsoft SQL Server to design and develop AID, an all-purpose IFTTT system to help monitor application health, tests, and more",
+				"Created internal tools such as Jenkins pipelines for Angular development, Angular component libraries, Gradle build scripts, and PowerShell scripts",
+				"Participated in multiple Scrum/Kanban teams to deliver working applications to customers for the purpose of data-driven insights"
+			],
+			"isCurrentRole": false,
+			"start": { "year": 2017, "month": 5 },
+			"end": { "year": 2018, "month": 8 },
+			"company": "Equifax",
+			"website": "https://datadrivenmarketing.equifax.com/"
+		},
+		{
+			"name": "American Enterprise Institute",
+			"location": "Washington, DC",
+			"description": "",
+			"position": "IT Intern",
+			"url": "https://www.aei.org/",
+			"startDate": "2016-12-01",
+			"endDate": "2017-01-01",
+			"summary": "",
+			"highlights": [],
+			"isCurrentRole": false,
+			"start": { "year": 2016, "month": 12 },
+			"end": { "year": 2017, "month": 1 },
+			"company": "American Enterprise Institute",
+			"website": "https://www.aei.org/"
+		},
+		{
+			"name": "REQ (formerly SpeakerBox Communcations)",
+			"location": "McLean",
+			"description": "",
+			"position": "Design & IT Intern",
+			"url": "https://req.co/",
+			"startDate": "2016-05-01",
+			"endDate": "2016-07-01",
+			"summary": "",
+			"highlights": [
+				"Leveraged WordPress and underlying technologies (PHP, JavaScript, CSS) as well as Photoshop to design and develop company website",
+				"Produced marketing PowerPoint decks and product website designs in Adobe CC for clients such as Motorola and Red Hat"
+			],
+			"isCurrentRole": false,
+			"start": { "year": 2016, "month": 5 },
+			"end": { "year": 2016, "month": 7 },
+			"company": "REQ (formerly SpeakerBox Communcations)",
+			"website": "https://req.co/"
+		},
+		{
+			"name": "MedTech Boston",
+			"location": "Boston, MA (Remote)",
+			"description": "",
+			"position": "Lead Design & Development",
+			"url": "https://medtechboston.medstro.com/",
+			"startDate": "2015-06-01",
+			"endDate": "2015-09-01",
+			"summary": "",
+			"highlights": [
+				"Constructed the MedTech Boston website using WordPress (PHP, HTML, JavaScript, CSS). Layout was devised with the concept of mobile-first, responsive design"
+			],
+			"isCurrentRole": false,
+			"start": { "year": 2015, "month": 6 },
+			"end": { "year": 2015, "month": 9 },
+			"company": "MedTech Boston",
+			"website": "https://medtechboston.medstro.com/"
+		},
+		{
+			"name": "WorldPak, Inc.",
+			"location": "McLean, VA",
+			"description": "",
+			"position": "Software Developer & QA",
+			"url": "",
+			"startDate": "2012-06-01",
+			"endDate": "2015-03-01",
+			"summary": "Contractor of Canada Post/Purolator, Inc. (https://www.purolator.com/en)",
+			"highlights": [
+				"Collaborated on a team to develop the Purolator B2B Returns Management System and used technologies including Microsoft SQL Server, .NET Framework, and Visual Basic",
+				"Performed extensive QA and testing of proprietary Purolator Online Shipping System (OLS) through web-based and XML SOAP queries"
+			],
+			"isCurrentRole": false,
+			"start": { "year": 2012, "month": 6 },
+			"end": { "year": 2015, "month": 3 },
+			"company": "WorldPak, Inc.",
+			"website": ""
+		}
+	],
+	"publications": [],
+	"education": [
+		{
+			"institution": "Virginia Polytechnic & State University",
+			"url": "https://bit.vt.edu/",
+			"area": "Business Information Technology",
+			"studyType": "Bachelor's of Science",
+			"startDate": "2015-08-01",
+			"endDate": "2019-05-01",
+			"score": "",
+			"courses": [],
+			"description": "Minor in Computer Science",
+			"activities": "PUMP\nIntramural Soccer\nVTHacks 2018",
+			"start": { "year": 2015, "month": 8 },
+			"end": { "year": 2019, "month": 5 },
+			"website": "https://bit.vt.edu/",
+			"gpa": ""
+		}
+	],
+	"volunteer": [
+		{
+			"organization": "CodePath",
+			"position": "Interview Preparation Mentor",
+			"url": "https://www.codepath.org/",
+			"startDate": "2022-01-01",
+			"endDate": "",
+			"summary": "",
+			"highlights": [],
+			"location": "",
+			"start": { "year": 2022, "month": 1 },
+			"end": { "year": null, "month": null },
+			"website": "https://www.codepath.org/"
+		}
+	],
+	"awards": [],
+	"languages": [{ "language": "English", "fluency": "Native" }],
+	"interests": [
+		{ "name": "Music Production, Mixing & Mastering", "keywords": [] },
+		{ "name": "Racing Simulators", "keywords": [] },
+		{ "name": "Playing with Puppy (Zelda)", "keywords": [] },
+		{ "name": "Hiking & Camping", "keywords": [] },
+		{ "name": "Tennis", "keywords": [] }
+	],
+	"references": [],
+	"certificates": [
+		{
+			"name": "AWS Certified Developer - Associate (DVA)",
+			"issuer": "Amazon Web Services",
+			"date": "2021-07-14",
+			"url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+			"summary": "Validation Number: WX5F2K3LD2R4QEGV",
+			"fullDate": { "year": 2021, "month": 7, "day": 14 },
+			"website": "https://aws.amazon.com/certification/certified-solutions-architect-associate/"
+		}
+	],
+	"meta": {
+		"note": "This is a combined version of the old and new JSON Resume API to provide maximum compatibility. You will notice duplicated values in different fields.",
+		"canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+		"version": "v1.0.0",
+		"lastModified": "2020-12-29T15:53:00"
+	}
+}
