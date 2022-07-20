@@ -13,8 +13,8 @@
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint .",
 		"format": "prettier --write --plugin-search-dir=. .",
-		"predeploy": "git checkout gh-pages && touch .nojekyll",
-		"deploy": "gh-pages -d build"
+		"predeploy": "touch build/.nojekyll",
+		"deploy": "gh-pages -d build -t true"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.23.4",

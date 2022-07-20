@@ -5,13 +5,14 @@
 	import type { ThreeConfig } from 'src/types'
 	import { three } from 'src/stores'
 	import { onMount, onDestroy } from 'svelte'
+	import { assets } from '$app/paths'
 
 	const CONFIG: ThreeConfig = {
 		color: '#fff',
 		backgroundColor: '#000',
 		charSet: ' .:-+*=%@#',
 		resolution: 0.205,
-		modelUrl: './stl/porsche.stl'
+		modelUrl: `${assets}/stl/porsche.stl`
 	}
 
 	function createEffect() {
