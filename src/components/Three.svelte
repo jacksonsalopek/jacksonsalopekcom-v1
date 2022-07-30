@@ -7,12 +7,16 @@
 	import { onMount, onDestroy } from 'svelte'
 	import { assets } from '$app/paths'
 
+	export let modelUrl = `${assets}/stl/porsche.stl`
+	export let oscillate = true
+	export let amplitude = 1 / 3
+
 	const CONFIG: ThreeConfig = {
 		color: '#fff',
 		backgroundColor: '#000',
 		charSet: ' .:-+*=%@#',
 		resolution: 0.205,
-		modelUrl: `${assets}/stl/porsche.stl`
+		modelUrl
 	}
 
 	function createEffect() {
@@ -43,6 +47,8 @@
 		if ($three.effect) {
 			if ($three.rotate) {
 				$three.mesh.rotation.z = $three.clock.getElapsedTime() / 3
+				if (oscillate)
+					$three.mesh.rotation.y = amplitude * Math.sin($three.clock.getElapsedTime() / 3)
 				render($three.effect)
 			} else {
 				render($three.effect)

@@ -10,8 +10,8 @@
 			href: '/works'
 		},
 		{
-			name: 'Experiments',
-			href: '/experiments/list'
+			name: 'Projects',
+			href: '/projects/list'
 		},
 		{
 			name: 'Contact',

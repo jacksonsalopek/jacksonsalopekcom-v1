@@ -30,7 +30,7 @@
 		"username": "jacksonsalopek",
 		"locationAsString": "Virginia, United States",
 		"region": "Virginia, United States",
-		"karma": 10,
+		"karma": 14,
 		"id": "b5e5081c-b346-47ab-9ddb-95d66e577c54",
 		"followers": 4,
 		"following": 0,
@@ -141,6 +141,20 @@
 			"yearsOfExperience": 3
 		},
 		{
+			"name": "Microsoft Azure",
+			"level": "Intermediate",
+			"keywords": ["Infrastructure", "CosmosDB", "Azure Functions"],
+			"rating": 3,
+			"yearsOfExperience": 2
+		},
+		{
+			"name": "SQL",
+			"level": "Intermediate",
+			"keywords": ["Backend Development", "Database"],
+			"rating": 3,
+			"yearsOfExperience": 2
+		},
+		{
 			"name": "React",
 			"level": "Intermediate",
 			"keywords": ["JavaScript Frameworks", "Web Development"],
@@ -167,41 +181,6 @@
 			"keywords": ["Backend Development", ".NET"],
 			"rating": 3,
 			"yearsOfExperience": 2
-		},
-		{
-			"name": "SQL",
-			"level": "Intermediate",
-			"keywords": ["Backend Development", "Database"],
-			"rating": 3,
-			"yearsOfExperience": 2
-		},
-		{
-			"name": "Objective-C",
-			"level": "Intermediate",
-			"keywords": ["Mobile Development", "iOS"],
-			"rating": 3,
-			"yearsOfExperience": 1
-		},
-		{
-			"name": "Microsoft Azure",
-			"level": "Advanced",
-			"keywords": ["Infrastructure", "CosmosDB", "Azure Functions"],
-			"rating": 4,
-			"yearsOfExperience": 2
-		},
-		{
-			"name": "Shell Languages (SH, PS)",
-			"level": "Advanced",
-			"keywords": ["Tools", "Bash", "PowerShell"],
-			"rating": 4,
-			"yearsOfExperience": 4
-		},
-		{
-			"name": "Git",
-			"level": "Advanced",
-			"keywords": ["Tools"],
-			"rating": 4,
-			"yearsOfExperience": 6
 		}
 	],
 	"projects": [
