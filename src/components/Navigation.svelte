@@ -3,7 +3,7 @@
 	const routes = [
 		{
 			name: 'Resume',
-			href: '/resume'
+			href: '/resume#skills'
 		},
 		{
 			name: 'Works',
