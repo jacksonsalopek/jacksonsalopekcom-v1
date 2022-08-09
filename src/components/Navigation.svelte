@@ -32,7 +32,7 @@
 	</div>
 	<nav>
 		{#each routes as route}
-			<a href={basePath + route.href}>{route.name}</a>
+			<a href={route.href}>{route.name}</a>
 		{/each}
 	</nav>
 </header>

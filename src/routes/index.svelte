@@ -21,4 +21,8 @@
 	let subtitle = 'porsche 930'
 </script>
 
+<svelte:head>
+	<title>home | jacksonsalopek.com</title>
+	<meta name="description" content="Home of Jackson Salopek" />
+</svelte:head>
 <Three bind:modelUrl bind:amplitude bind:oscillate bind:subtitle />

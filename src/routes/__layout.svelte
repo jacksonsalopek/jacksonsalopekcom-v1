@@ -8,6 +8,7 @@
 		href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
 		rel="stylesheet"
 	/>
+	<meta charset="utf-8" />
 </svelte:head>
 
 <Navigation />

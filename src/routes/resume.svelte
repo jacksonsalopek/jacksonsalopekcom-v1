@@ -57,6 +57,10 @@
 	})
 </script>
 
+<svelte:head>
+	<title>resume | jacksonsalopek.com</title>
+	<meta name="description" content="Jackson Salopek's Resume" />
+</svelte:head>
 <div class="js-resume">
 	<ResumeHeader bind:content={header} />
 	<ResumeNavigation bind:routes bind:selection />
