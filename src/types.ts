@@ -7,8 +7,8 @@ import {
 	Scene,
 	WebGLRenderer
 } from 'three'
-import { AsciiEffect } from 'three/examples/jsm/effects/AsciiEffect'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
+import { AsciiEffect } from 'three/examples/jsm/effects/AsciiEffect'
 import { STLLoader } from 'three/examples/jsm/loaders/STLLoader'
 
 export type ThreeConfig = {

@@ -1,5 +1,5 @@
-import { resolve } from 'path'
 import { copyFileSync, lstatSync, mkdirSync, readdirSync } from 'fs'
+import { resolve } from 'path'
 import yargs from 'yargs'
 
 export type DirectoryMap = { [dir: string]: string[] }

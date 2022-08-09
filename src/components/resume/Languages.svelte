@@ -1,7 +1,7 @@
 <script lang="ts">
-	import type { ResumeSection } from 'src/resume'
 	import UnderConstruction from '../UnderConstruction.svelte'
 	import ResumeSectionHeader from './ResumeSectionHeader.svelte'
+	import type { ResumeSection } from 'src/resume'
 
 	export let section: ResumeSection<'languages'>
 

@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { assets } from '$app/paths'
-	import type { ResumeSection } from 'src/resume'
 	import Three from '../Three.svelte'
 	import ResumeSectionHeader from './ResumeSectionHeader.svelte'
+	import { assets } from '$app/paths'
+	import type { ResumeSection } from 'src/resume'
 
 	export let section: ResumeSection<'education'>
 

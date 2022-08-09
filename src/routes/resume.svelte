@@ -1,18 +1,16 @@
 <script lang="ts">
-	import { onMount } from 'svelte'
-
-	import { RESUME } from 'src/resume'
-	import type { ResumeKeys } from 'src/resume'
-
 	import Certificates from 'src/components/resume/Certificates.svelte'
 	import Education from 'src/components/resume/Education.svelte'
 	import Experience from 'src/components/resume/Experience.svelte'
-	import Languages from 'src/components/resume/Languages.svelte'
 	import Interests from 'src/components/resume/Interests.svelte'
+	import Languages from 'src/components/resume/Languages.svelte'
+	import ResumeHeader from 'src/components/resume/ResumeHeader.svelte'
+	import ResumeNavigation from 'src/components/resume/ResumeNavigation.svelte'
 	import Skills from 'src/components/resume/Skills.svelte'
 	import Volunteer from 'src/components/resume/Volunteer.svelte'
-	import ResumeNavigation from 'src/components/resume/ResumeNavigation.svelte'
-	import ResumeHeader from 'src/components/resume/ResumeHeader.svelte'
+	import { onMount } from 'svelte'
+	import { RESUME } from 'src/resume'
+	import type { ResumeKeys } from 'src/resume'
 
 	let routes = [
 		...Object.keys(RESUME).filter((val) => {

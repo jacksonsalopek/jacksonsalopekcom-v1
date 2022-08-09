@@ -1,11 +1,11 @@
 <script lang="ts">
-	import { BufferGeometry, Color, PerspectiveCamera, WebGLRenderer } from 'three'
-	import { AsciiEffect } from 'three/examples/jsm/effects/AsciiEffect'
-	import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
-	import type { ThreeConfig } from 'src/types'
-	import { three } from 'src/stores'
-	import { onMount, onDestroy } from 'svelte'
+	import { onDestroy, onMount } from 'svelte'
 	import { assets } from '$app/paths'
+	import { BufferGeometry, Color, PerspectiveCamera, WebGLRenderer } from 'three'
+	import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
+	import { AsciiEffect } from 'three/examples/jsm/effects/AsciiEffect'
+	import { three } from 'src/stores'
+	import type { ThreeConfig } from 'src/types'
 
 	export let modelUrl = `${assets}/stl/porsche.stl`
 	export let oscillate = true
@@ -148,7 +148,7 @@
 		console.info('Three.svelte: Beginning scene bootstrapping...')
 		$three.domElement = bootstrap()
 		$three.domElement.style.background = 'transparent'
-		document.getElementById('js-three')?.appendChild($three.effect!.domElement)
+		if ($three.effect) document.getElementById('js-three')?.appendChild($three.effect.domElement)
 		console.info('Three.svelte: Scene bootstrapped!')
 	})
 
