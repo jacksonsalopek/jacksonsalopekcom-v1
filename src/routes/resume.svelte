@@ -16,16 +16,24 @@
 
 	let routes = [
 		...Object.keys(RESUME).filter((val) => {
-			if (val === 'meta' || val === 'basics' || val === 'projects' || val === 'work') return false
+			if (
+				val === 'meta' ||
+				val === 'basics' ||
+				val === 'projects' ||
+				val === 'work' ||
+				val === 'certificates'
+			)
+				return false
 			const obj = RESUME[val as ResumeKeys]
 			if (Array.isArray(obj) && obj.length > 0) return true
 			if (Object.keys(obj).length > 0) return true
 			return false
-		}),
-		'experience'
+		})
 	]
+	routes.splice(2, 0, 'experience')
+	routes.splice(3, 0, 'certificates')
 
-	$: selection = routes[0]
+	$: selection = undefined as string | undefined
 
 	let sections = {
 		certificates: { certificates: RESUME.certificates },
@@ -41,7 +49,8 @@
 
 	onMount(() => {
 		if (window.location.hash) selection = window.location.hash.substring(1)
-		else window.location.hash = selection
+		else window.location.hash = 'skills'
+		console.log(selection)
 		window.onhashchange = (e: HashChangeEvent) => {
 			selection = e.newURL.split('#')[1]
 		}

@@ -10,6 +10,7 @@
 	export let modelUrl = `${assets}/stl/porsche.stl`
 	export let oscillate = true
 	export let amplitude = 1 / 3
+	export let subtitle: string | undefined = undefined
 
 	const CONFIG: ThreeConfig = {
 		color: '#fff',
@@ -152,6 +153,9 @@
 	})
 
 	onDestroy(() => {
+		$three.scene.remove($three.mesh)
+		$three.mesh.geometry.dispose()
+		$three.material.dispose()
 		three.reset()
 	})
 </script>
@@ -162,5 +166,7 @@
 	{#if !$three.domElement}
 		<code>loading...</code>
 	{/if}
-	<code class="subtitle">porsche 930</code>
+	{#if subtitle}
+		<code class="subtitle">{subtitle}</code>
+	{/if}
 </div>

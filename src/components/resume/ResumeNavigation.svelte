@@ -1,13 +1,24 @@
 <script lang="ts">
-	import { onMount } from 'svelte'
+	import { afterUpdate, onMount } from 'svelte'
 
 	const breakpoint = 1000
 
 	export let routes: string[]
 	export let hidden = false
-	export let selection: string
+	export let selection: string | undefined
 
 	onMount(() => {
+		// hidden =
+		// 	/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
+		// 	window.innerWidth < breakpoint
+		// window.addEventListener('resize', () => {
+		// 	if (window.innerWidth < breakpoint) hidden = true
+		// 	else hidden = false
+		// })
+		console.log(selection)
+	})
+
+	afterUpdate(() => {
 		// hidden =
 		// 	/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
 		// 	window.innerWidth < breakpoint

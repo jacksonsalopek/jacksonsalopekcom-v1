@@ -1,5 +1,11 @@
 [ ] Resume
+- [ ] Fix mobile scaling for skills section
+- [ ] Add expand/collapse functionality to sidenav on mobile
 [ ] Works
 [ ] Contact
 [ ] Tests
 [ ] Docs
+[ ] Setup CI/CD pipeline
+
+[ ] Bug fixes
+- [ ] Animation state doesn't totally reset upon navigation

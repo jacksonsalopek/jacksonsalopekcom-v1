@@ -7,6 +7,23 @@ body {
 	@include checkedBG(#333, 3px);
 }
 
+body > div {
+	& > *:not(header):not(.js-animation-container):not(.js-resume) {
+		margin: 160px 240px 0;
+	}
+
+	& h2,
+	& h3,
+	& h4,
+	& h5,
+	& h6,
+	& a,
+	& p,
+	& span {
+		color: #fff;
+	}
+}
+
 canvas {
 	outline: none;
 	border: none;
@@ -306,10 +323,19 @@ p {
 			}
 		}
 
-		&-skills {
+		&-skills,
+		&-education,
+		&-volunteer,
+		&-languages,
+		&-interests,
+		&-certificates,
+		&-experience {
 			color: #fff;
 			display: grid;
 			margin: 160px 240px 0;
+		}
+
+		&-skills {
 			grid-template-columns: repeat(2, 1fr);
 			grid-template-rows: 46px repeat(2, 1fr);
 			grid-column-gap: 32px;

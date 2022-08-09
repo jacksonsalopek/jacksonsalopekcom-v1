@@ -18,6 +18,7 @@
 	let modelUrl = config.porsche.modelUrl
 	let amplitude = config.porsche.amplitude
 	let oscillate = config.porsche.oscillate
+	let subtitle = 'porsche 930'
 </script>
 
-<Three bind:modelUrl bind:amplitude bind:oscillate />
+<Three bind:modelUrl bind:amplitude bind:oscillate bind:subtitle />
