@@ -21,10 +21,11 @@ const config = {
 		}),
 		prerender: {
 			default: true
-		},
-		paths: {
-			base: '/jacksonsalopekcom'
 		}
+		// Only needed if page is not hosted on custom domain!
+		// paths: {
+		// 	base: '/jacksonsalopekcom'
+		// }
 	}
 }
 

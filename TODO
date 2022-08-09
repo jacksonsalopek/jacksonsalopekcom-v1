@@ -9,3 +9,4 @@
 
 [ ] Bug fixes
 - [ ] Animation state doesn't totally reset upon navigation
+- [ ] Missing page title element

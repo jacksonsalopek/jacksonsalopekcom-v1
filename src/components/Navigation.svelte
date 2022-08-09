@@ -1,5 +1,5 @@
 <script lang="ts">
-	const basePath = '/jacksonsalopekcom'
+	const basePath = '/'
 	const routes = [
 		{
 			name: 'Resume',
