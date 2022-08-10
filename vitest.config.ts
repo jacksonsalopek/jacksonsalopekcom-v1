@@ -1,12 +1,18 @@
-import { svelte } from '@sveltejs/vite-plugin-svelte'
+import { sveltekit } from '@sveltejs/kit/vite'
+import path from 'path'
 import { configDefaults, defineConfig } from 'vitest/config'
 
 export default defineConfig({
-	plugins: [svelte({ hot: !process.env.VITEST })],
+	plugins: [sveltekit()],
 	test: {
 		include: ['tests/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
 		exclude: [...configDefaults.exclude, 'tests/routes/**/*'],
 		globals: true,
 		environment: 'jsdom'
+	},
+	resolve: {
+		alias: {
+			src: path.resolve(__dirname, './src')
+		}
 	}
 })
