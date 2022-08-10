@@ -51,6 +51,7 @@
 	},
 	"dependencies": {
 		"@sveltejs/vite-plugin-svelte": "^1.0.1",
+		"fathom-client": "^3.5.0",
 		"jsdom": "^20.0.0",
 		"three": "^0.143.0",
 		"vitest": "^0.21.1"

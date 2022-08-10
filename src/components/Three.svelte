@@ -4,8 +4,8 @@
 	import { BufferGeometry, Color, PerspectiveCamera, WebGLRenderer } from 'three'
 	import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 	import { AsciiEffect } from 'three/examples/jsm/effects/AsciiEffect'
+	import type { ThreeConfig } from 'src/shared/types'
 	import { three } from 'src/stores'
-	import type { ThreeConfig } from 'src/types'
 
 	export let modelUrl = `${assets}/stl/porsche.stl`
 	export let oscillate = true
@@ -153,12 +153,10 @@
 	})
 
 	onDestroy(() => {
-		console.log(three)
 		$three.scene.remove($three.mesh)
 		$three.mesh.geometry.dispose()
 		$three.material.dispose()
 		three.reset()
-		console.log(three)
 	})
 </script>
 

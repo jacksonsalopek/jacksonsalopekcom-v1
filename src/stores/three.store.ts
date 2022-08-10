@@ -9,7 +9,7 @@ import {
 	Scene
 } from 'three'
 import { STLLoader } from 'three/examples/jsm/loaders/STLLoader'
-import type { ThreeState } from 'src/types'
+import type { ThreeState } from 'src/shared/types'
 
 type ThreeStore = {
 	set: Writable<ThreeState>['set']

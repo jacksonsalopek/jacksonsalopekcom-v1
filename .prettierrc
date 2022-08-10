@@ -4,7 +4,15 @@
 	"trailingComma": "none",
 	"printWidth": 100,
 	"semi": false,
-	"importOrder": ["svelte", "^\\$app/(.*)$", "three", "^three/(.*)$", "^src/(.*)$", "."],
+	"importOrder": [
+		"svelte",
+		"^\\$app/(.*)$",
+		"fathom-client",
+		"three",
+		"^three/(.*)$",
+		"^src/(.*)$",
+		"."
+	],
 	"importOrderSeparation": false,
 	"importOrderSortSpecifiers": true
 }

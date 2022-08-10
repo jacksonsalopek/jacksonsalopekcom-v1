@@ -9,8 +9,8 @@
 	import Skills from 'src/components/resume/Skills.svelte'
 	import Volunteer from 'src/components/resume/Volunteer.svelte'
 	import { onMount } from 'svelte'
-	import { RESUME } from 'src/resume'
-	import type { ResumeKeys } from 'src/resume'
+	import { RESUME } from 'src/shared/resume'
+	import type { ResumeKeys } from 'src/shared/resume'
 
 	let routes = [
 		...Object.keys(RESUME).filter((val) => {

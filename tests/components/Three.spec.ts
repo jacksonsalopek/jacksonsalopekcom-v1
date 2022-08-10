@@ -3,6 +3,10 @@ import { render, screen } from '@testing-library/svelte'
 import '@testing-library/jest-dom'
 
 describe('components/Three.svelte', () => {
-	test('shows scene with ascii effect and model', () => {})
-	test('component state is reset onDestroy', () => {})
+	test('shows scene with ascii effect and model', () => {
+		// TODO
+	})
+	test('component state is reset onDestroy', () => {
+		// TODO
+	})
 })

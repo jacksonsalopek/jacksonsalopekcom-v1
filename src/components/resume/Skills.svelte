@@ -1,6 +1,6 @@
 <script lang="ts">
 	import ResumeSectionHeader from './ResumeSectionHeader.svelte'
-	import type { ResumeSection } from 'src/resume'
+	import type { ResumeSection } from 'src/shared/resume'
 
 	export let section: ResumeSection<'skills'>
 	type SkillsMap = { [years: number]: typeof section.skills }

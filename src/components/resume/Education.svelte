@@ -2,7 +2,7 @@
 	import Three from '../Three.svelte'
 	import ResumeSectionHeader from './ResumeSectionHeader.svelte'
 	import { assets } from '$app/paths'
-	import type { ResumeSection } from 'src/resume'
+	import type { ResumeSection } from 'src/shared/resume'
 
 	export let section: ResumeSection<'education'>
 

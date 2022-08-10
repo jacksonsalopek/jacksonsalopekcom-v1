@@ -22,6 +22,10 @@ describe('stores/three.store.ts', () => {
 		expect(s.scene).toBeDefined()
 		expect(s.stlLoader).toBeDefined()
 	})
-	test('store is successfully created', () => {})
-	test('reset function disposes of animation state', () => {})
+	test('store is successfully created', () => {
+		// TODO
+	})
+	test('reset function disposes of animation state', () => {
+		// TODO
+	})
 })
