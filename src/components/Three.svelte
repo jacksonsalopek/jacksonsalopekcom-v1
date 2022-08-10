@@ -153,10 +153,12 @@
 	})
 
 	onDestroy(() => {
+		console.log(three)
 		$three.scene.remove($three.mesh)
 		$three.mesh.geometry.dispose()
 		$three.material.dispose()
 		three.reset()
+		console.log(three)
 	})
 </script>
 

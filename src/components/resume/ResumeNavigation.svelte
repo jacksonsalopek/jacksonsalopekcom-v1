@@ -15,7 +15,6 @@
 		// 	if (window.innerWidth < breakpoint) hidden = true
 		// 	else hidden = false
 		// })
-		console.log(selection)
 	})
 
 	afterUpdate(() => {

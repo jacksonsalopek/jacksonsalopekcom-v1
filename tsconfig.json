@@ -11,6 +11,7 @@
 		"strict": true,
 		"preserveValueImports": true,
 		"isolatedModules": true,
-		"importsNotUsedAsValues": "preserve"
+		"importsNotUsedAsValues": "preserve",
+		"types": ["node", "svelte"]
 	}
 }
