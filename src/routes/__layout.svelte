@@ -1,23 +1,17 @@
 <script lang="ts">
-	import Navigation from 'src/components/Navigation.svelte'
-	import { onMount } from 'svelte'
 	import { dev } from '$app/env'
 	import { navigating } from '$app/stores'
-	import { isTrackingEnabled, load, trackPageview } from 'fathom-client'
+	import Navigation from 'src/components/Navigation.svelte'
+	import { onMount } from 'svelte'
+	import { load } from 'fathom-client'
+	import { APP_ID, handleNavigation } from 'src/shared/analytics'
 	import '../app.scss'
-
-	const handleNavigation = (url: URL) => {
-		trackPageview({
-			url: url.toString()
-		})
-	}
 
 	$: if ($navigating) handleNavigation($navigating.to)
 
 	onMount(() => {
 		if (!dev) {
-			console.info('Fathom Analytics tracking:', isTrackingEnabled())
-			load('QYWVIGOF', {
+			load(APP_ID, {
 				url: 'https://moving-blue.jacksonsalopek.com/script.js',
 				includedDomains: ['jacksonsalopek.com'],
 				honorDNT: true

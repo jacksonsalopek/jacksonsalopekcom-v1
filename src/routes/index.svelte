@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Three from 'src/components/Three.svelte'
 	import { assets } from '$app/paths'
+	import Three from 'src/components/Three.svelte'
 
 	const config = {
 		porsche: {

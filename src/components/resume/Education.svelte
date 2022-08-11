@@ -1,7 +1,9 @@
 <script lang="ts">
+	import { assets } from '$app/paths'
 	import Three from '../Three.svelte'
 	import ResumeSectionHeader from './ResumeSectionHeader.svelte'
-	import { assets } from '$app/paths'
+	import { onMount } from 'svelte'
+	import { EVENTS, track } from 'src/shared/analytics'
 	import type { ResumeSection } from 'src/shared/resume'
 
 	export let section: ResumeSection<'education'>
@@ -18,6 +20,10 @@
 	let modelUrl = config.vt.modelUrl
 	let amplitude = config.vt.amplitude
 	let oscillate = config.vt.oscillate
+
+	onMount(() => {
+		track(EVENTS.load.component.resume.education)
+	})
 </script>
 
 <div class="js-resume-education">

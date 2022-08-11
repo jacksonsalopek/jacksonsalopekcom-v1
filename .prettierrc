@@ -5,13 +5,13 @@
 	"printWidth": 100,
 	"semi": false,
 	"importOrder": [
-		"svelte",
 		"^\\$app/(.*)$",
+		"svelte",
 		"fathom-client",
 		"three",
 		"^three/(.*)$",
 		"^src/(.*)$",
-		"."
+		"^[^/].*"
 	],
 	"importOrderSeparation": false,
 	"importOrderSortSpecifiers": true

@@ -1,5 +1,7 @@
 <script lang="ts">
 	import ResumeSectionHeader from './ResumeSectionHeader.svelte'
+	import { onMount } from 'svelte'
+	import { EVENTS, track } from 'src/shared/analytics'
 	import type { ResumeSection } from 'src/shared/resume'
 
 	export let section: ResumeSection<'skills'>
@@ -18,6 +20,10 @@
 			}
 	}, {} as SkillsMap)
 	export let skillKeysDescending = Object.keys(skills).sort((a: string, b: string) => +b - +a)
+
+	onMount(() => {
+		track(EVENTS.load.component.resume.skills)
+	})
 </script>
 
 <div class="js-resume-skills">

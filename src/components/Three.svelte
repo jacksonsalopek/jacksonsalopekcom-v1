@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { onDestroy, onMount } from 'svelte'
 	import { assets } from '$app/paths'
+	import { onDestroy, onMount } from 'svelte'
 	import { BufferGeometry, Color, PerspectiveCamera, WebGLRenderer } from 'three'
 	import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 	import { AsciiEffect } from 'three/examples/jsm/effects/AsciiEffect'
