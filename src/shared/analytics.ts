@@ -1,4 +1,4 @@
-import { dev } from '$app/env'
+import { dev } from '$app/environment'
 import { trackGoal, trackPageview } from 'fathom-client'
 
 export const APP_ID = 'QYWVIGOF'

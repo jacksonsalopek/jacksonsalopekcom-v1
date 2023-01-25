@@ -12,6 +12,9 @@
 		"preserveValueImports": true,
 		"isolatedModules": true,
 		"importsNotUsedAsValues": "preserve",
-		"types": ["node", "svelte"]
+		"types": ["node", "svelte"],
+		"paths": {
+			"src/*": ["./src/*"],
+		}
 	}
 }
