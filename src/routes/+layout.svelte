@@ -7,7 +7,7 @@
 	import { APP_ID, handleNavigation } from 'src/shared/analytics'
 	import '../app.scss'
 
-	$: if ($navigating) handleNavigation($navigating.to)
+	$: if ($navigating && $navigating.to !== null) handleNavigation($navigating.to as unknown as URL)
 
 	onMount(() => {
 		if (!dev) {

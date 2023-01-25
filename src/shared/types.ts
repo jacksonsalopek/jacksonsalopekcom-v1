@@ -7,9 +7,9 @@ import {
 	Scene,
 	WebGLRenderer
 } from 'three'
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
-import { AsciiEffect } from 'three/examples/jsm/effects/AsciiEffect'
-import { STLLoader } from 'three/examples/jsm/loaders/STLLoader'
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
+import { AsciiEffect } from 'three/examples/jsm/effects/AsciiEffect.js'
+import { STLLoader } from 'three/examples/jsm/loaders/STLLoader.js'
 
 export type ThreeConfig = {
 	color: string

@@ -8,7 +8,7 @@ import {
 	PointLight,
 	Scene
 } from 'three'
-import { STLLoader } from 'three/examples/jsm/loaders/STLLoader'
+import { STLLoader } from 'three/examples/jsm/loaders/STLLoader.js'
 import type { ThreeState } from 'src/shared/types'
 
 type ThreeStore = {

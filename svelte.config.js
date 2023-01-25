@@ -17,8 +17,12 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-			fallback: null
-		})
+			fallback: null,
+			strict: false
+		}),
+		prerender: {
+			handleMissingId: 'ignore'
+		}
 		// Only needed if page is not hosted on custom domain!
 		// paths: {
 		// 	base: '/jacksonsalopekcom'

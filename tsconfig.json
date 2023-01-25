@@ -14,7 +14,7 @@
 		"importsNotUsedAsValues": "preserve",
 		"types": ["node", "svelte"],
 		"paths": {
-			"src/*": ["./src/*"],
+			"src/*": ["./src/*"]
 		}
 	}
 }

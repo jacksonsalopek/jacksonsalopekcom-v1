@@ -13,7 +13,7 @@ export function getFilesFromDirectory(
 ) {
 	const files = readdirSync(resolve(directory))
 	files.forEach((file) => {
-		const fullPath = resolve(directory + '/' + file)
+		const fullPath = resolve(`${directory}/${file}`)
 		if (lstatSync(fullPath).isDirectory()) {
 			getFilesFromDirectory(fullPath, topLevelDirectory, buildDirectory, verbose, directoryMap)
 		}
@@ -22,7 +22,7 @@ export function getFilesFromDirectory(
 			fullPath.indexOf(topLevelDirectory) + topLevelDirectory.length + 1,
 			fullPath.indexOf(file)
 		)
-		const newFileDir = resolve(buildDirectory + '/' + fileDir)
+		const newFileDir = resolve(`${buildDirectory}/${fileDir}`)
 		const newFile = resolve(newFileDir, file)
 		try {
 			const newDirStats = lstatSync(newFileDir)
