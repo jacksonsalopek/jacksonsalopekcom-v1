@@ -1,6 +1,11 @@
 [ ] Resume
-- [ ] Fix mobile scaling for skills section
-- [ ] Add expand/collapse functionality to sidenav on mobile
+
+- [ ] Experience
+- [ ] Certificates
+- [ ] Volunteer
+- [ ] Languages
+- [ ] Interests
+
 [ ] Works
 [ ] Contact
 [ ] Tests
@@ -8,5 +13,3 @@
 [ ] Setup CI/CD pipeline
 
 [ ] Bug fixes
-- [ ] Animation state doesn't totally reset upon navigation
-- [ ] Missing page title element

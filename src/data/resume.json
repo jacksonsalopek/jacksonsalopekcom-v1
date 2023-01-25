@@ -1,4 +1,5 @@
 {
+	"$schema": "https://github.com/jsonresume/resume-schema/blob/master/schema.json",
 	"basics": {
 		"name": "Jackson Salopek",
 		"label": "@teoti-io",
@@ -247,7 +248,7 @@
 				"Utilized Swift on the flagship iOS mobile app, EASE, to engineer efficient & reusable code for creating features, facilitating cross-team development and performance improvements",
 				"Assembled the Focus Task Definitions UI, a drag-and-drop interface for creating user workflows and generating UI code based on the workflows that the user has input using React",
 				"Leveraged Vue 3 to develop the 2nd generation Content Management System, Chariot, as well as the internal Rewards Library for sales reps in a full-stack, cross-functional team context",
-				"Composed the Enterprise Document Center using TypeScript to search and retrieve millions of documents, facilitating the Statements & Documents feature in Capital One iOS, Android, and Web",
+				"Composed the Enterprise Document Center using TypeScript and Nest.js to search and retrieve millions of documents, facilitating the Statements & Documents feature in Capital One iOS, Android, and Web",
 				"Deployed resilient and managed infrastructure on AWS such as cross-region ECS instances and failover policies to support the Statements & Documents feature",
 				"Aided management by onboarding new team members, conveying development processes and statuses to product owners, and dividing work amongst the team"
 			],
@@ -386,7 +387,11 @@
 		}
 	],
 	"awards": [],
-	"languages": [{ "language": "English", "fluency": "Native" }],
+	"languages": [
+		{ "language": "English", "fluency": "Native" },
+		{ "language": "Spanish", "fluency": "Intermediate" },
+		{ "language": "Italian", "fluency": "Beginner" }
+	],
 	"interests": [
 		{ "name": "Music Production, Mixing & Mastering", "keywords": [] },
 		{ "name": "Racing Simulators", "keywords": [] },
