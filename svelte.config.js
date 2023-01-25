@@ -18,10 +18,7 @@ const config = {
 			pages: 'build',
 			assets: 'build',
 			fallback: null
-		}),
-		prerender: {
-			default: true
-		}
+		})
 		// Only needed if page is not hosted on custom domain!
 		// paths: {
 		// 	base: '/jacksonsalopekcom'

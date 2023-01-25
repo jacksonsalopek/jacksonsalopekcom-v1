@@ -1,6 +1,6 @@
 import { sveltekit } from '@sveltejs/kit/vite'
 import { resolve } from 'path'
-import { UserConfig } from 'vite'
+import type { UserConfig } from 'vite'
 
 const config: UserConfig = {
 	plugins: [sveltekit()],
