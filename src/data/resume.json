@@ -195,7 +195,7 @@
 			"endDate": "",
 			"entity": "",
 			"type": "",
-			"displayName": "tabcloser",
+			"displayName": "TabCloser",
 			"website": "",
 			"summary": "",
 			"primaryLanguage": "TypeScript",
@@ -279,22 +279,6 @@
 			"website": "https://datadrivenmarketing.equifax.com/"
 		},
 		{
-			"name": "American Enterprise Institute",
-			"location": "Washington, DC",
-			"description": "",
-			"position": "IT Intern",
-			"url": "https://www.aei.org/",
-			"startDate": "2016-12-01",
-			"endDate": "2017-01-01",
-			"summary": "",
-			"highlights": [],
-			"isCurrentRole": false,
-			"start": { "year": 2016, "month": 12 },
-			"end": { "year": 2017, "month": 1 },
-			"company": "American Enterprise Institute",
-			"website": "https://www.aei.org/"
-		},
-		{
 			"name": "REQ (formerly SpeakerBox Communcations)",
 			"location": "McLean",
 			"description": "",
@@ -376,12 +360,12 @@
 			"position": "Interview Preparation Mentor",
 			"url": "https://www.codepath.org/",
 			"startDate": "2022-01-01",
-			"endDate": "",
-			"summary": "",
+			"endDate": "2022-08-01",
+			"summary": "Helped college students prepare themselves and their resumes for interviews through mock interviews, resume reviews, and more.",
 			"highlights": [],
 			"location": "",
 			"start": { "year": 2022, "month": 1 },
-			"end": { "year": null, "month": null },
+			"end": { "year": 2022, "month": 8 },
 			"website": "https://www.codepath.org/"
 		}
 	],
@@ -396,6 +380,7 @@
 		{ "name": "Racing Simulators", "keywords": [] },
 		{ "name": "Playing with Puppy (Zelda)", "keywords": [] },
 		{ "name": "Hiking & Camping", "keywords": [] },
+		{ "name": "Soccer & Chelsea FC", "keywords": [] },
 		{ "name": "Tennis", "keywords": [] }
 	],
 	"references": [],

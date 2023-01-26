@@ -7,8 +7,8 @@ body {
 	@include checkedBG(#333, 3px);
 }
 
-body>div {
-	&>*:not(header):not(.js-animation-container):not(.js-resume) {
+body > div {
+	& > *:not(header):not(.js-animation-container):not(.js-resume) {
 		margin: 160px 240px 0;
 	}
 
@@ -40,6 +40,8 @@ h5,
 h6,
 a,
 p,
+ul,
+li,
 span {
 	font-family: 'Neue Bit', 'Inconsolata', 'Courier', monospace;
 	text-transform: lowercase;
@@ -161,7 +163,6 @@ p {
 				}
 
 				&.close {
-
 					&:before,
 					&:after {
 						content: '';
@@ -189,7 +190,6 @@ p {
 					}
 
 					&:active {
-
 						&::before,
 						&::after {
 							opacity: 1;
@@ -198,8 +198,7 @@ p {
 				}
 
 				&.resize {
-					$line: #000 0%,
-					#000 100%;
+					$line: #000 0%, #000 100%;
 					$w: 60%;
 					$h: $button_scaled_line_size;
 
@@ -368,6 +367,15 @@ p {
 			}
 		}
 
+		.js-resume-skill {
+			display: grid;
+			grid-template-columns: 1fr max-content;
+
+			h4 {
+				margin: 0;
+			}
+		}
+
 		&-education {
 			@media (max-width: 750px) {
 				grid-template-columns: 1fr;
@@ -376,6 +384,10 @@ p {
 		}
 
 		&-experience {
+			li {
+				font-size: 24px;
+			}
+
 			&-item {
 				&-header {
 					display: grid;
@@ -384,7 +396,8 @@ p {
 					align-items: first baseline;
 
 					@media (max-width: 750px) {
-						grid-template-columns: min-content;
+						grid-template-columns: auto;
+						grid-template-rows: max-content min-content;
 					}
 				}
 			}
@@ -398,12 +411,22 @@ p {
 			}
 		}
 
-		.js-resume-skill {
+		&-language {
 			display: grid;
-			grid-template-columns: 1fr max-content;
+			grid-template-columns: max-content max-content;
+			align-items: first baseline;
+			column-gap: 12px;
+		}
 
-			h4 {
-				margin: 0;
+		&-interests {
+			ul {
+				list-style-type: '› ';
+			}
+			li {
+				font-size: 24px;
+				h5 {
+					display: inline-block;
+				}
 			}
 		}
 	}
@@ -415,7 +438,7 @@ p {
 	height: calc(100% - 16px);
 	line-height: 0;
 
-	&>div {
+	& > div {
 		margin: 0 auto;
 		display: inline-block;
 	}

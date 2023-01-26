@@ -10,8 +10,8 @@
 			href: '/works'
 		},
 		{
-			name: 'Projects',
-			href: '/projects/list'
+			name: 'source',
+			href: 'https://github.com/jacksonsalopek/jacksonsalopekcom'
 		},
 		{
 			name: 'Contact',
@@ -32,7 +32,11 @@
 	</div>
 	<nav>
 		{#each routes as route}
-			<a href={route.href}>{route.name}</a>
+			{#if route.href.charAt(0) !== '/'}
+				<a href={route.href} target="_blank" rel="noreferrer">{route.name}</a>
+			{:else}
+				<a href={route.href}>{route.name}</a>
+			{/if}
 		{/each}
 	</nav>
 </header>
