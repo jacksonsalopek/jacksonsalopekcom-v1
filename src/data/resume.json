@@ -1,5 +1,4 @@
 {
-	"$schema": "https://github.com/jsonresume/resume-schema/blob/master/schema.json",
 	"basics": {
 		"name": "Jackson Salopek",
 		"label": "@teoti-io",
