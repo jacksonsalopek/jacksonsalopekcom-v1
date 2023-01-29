@@ -25,6 +25,14 @@
 	<title>home | jacksonsalopek.com</title>
 	<meta name="description" content="Home of Jackson Salopek" />
 </svelte:head>
-<div>
+<div class="js-home">
+	<div>
+		<h4 class="js-home-text">
+			<!-- <span style="color: transparent"
+				>hi ! ☺ i'm jackson. i'm currently a software engineer at capital one. click the links above
+				to learn more!</span
+			> -->
+		</h4>
+	</div>
 	<Three bind:modelUrl bind:amplitude bind:oscillate bind:subtitle />
 </div>
