@@ -60,7 +60,7 @@
 	<meta name="description" content="Jackson Salopek's Resume" />
 </svelte:head>
 <div class="js-resume">
-	<ResumeHeader bind:content={header} />
+	<ResumeHeader>{header}</ResumeHeader>
 	<ResumeNavigation bind:routes bind:selection />
 	<div class="js-resume-content">
 		{#if selection === 'skills'}

@@ -9,7 +9,7 @@ body {
 }
 
 body > div {
-	& > *:not(header):not(.js-animation-container):not(.js-resume) {
+	& > *:not(header):not(.js-animation-container):not(.js-resume):not(.js-works) {
 		margin: 160px 240px 0;
 
 		@media (max-width: 1000px) {
@@ -451,6 +451,38 @@ p {
 					display: inline-block;
 				}
 			}
+		}
+	}
+
+	&-works {
+		&-list {
+			margin: 16px 240px 0;
+
+			@media (max-width: 1000px) {
+				margin: 16px 24px;
+			}
+		}
+
+		&-row {
+			margin-bottom: 32px;
+		}
+
+		&-item {
+			&-title {
+				margin-bottom: 8px;
+			}
+		}
+
+		&-header {
+			color: #fff;
+			text-align: center;
+			border: 1px solid #fff;
+			border-top: none;
+			padding-top: 2rem;
+		}
+
+		img {
+			width: 100%;
 		}
 	}
 }
