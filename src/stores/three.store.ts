@@ -3,7 +3,7 @@ import {
 	Clock,
 	DoubleSide,
 	Mesh,
-	MeshStandardMaterial,
+	MeshLambertMaterial,
 	PerspectiveCamera,
 	PointLight,
 	Scene
@@ -23,7 +23,7 @@ export function getInitialThreeState(): ThreeState {
 		camera: new PerspectiveCamera(),
 		clock: new Clock(),
 		lights: [new PointLight(0xffffff, 1), new PointLight(0xffffff, 0.5)],
-		material: new MeshStandardMaterial({
+		material: new MeshLambertMaterial({
 			flatShading: true,
 			side: DoubleSide
 		}),

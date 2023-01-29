@@ -153,9 +153,15 @@
 	})
 
 	onDestroy(() => {
-		$three.scene.remove($three.mesh)
+		$three.scene.remove.apply($three.scene, $three.scene.children)
 		$three.mesh.geometry.dispose()
 		$three.material.dispose()
+		$three.domElement = undefined
+		$three.renderer?.dispose()
+		$three.controls?.dispose()
+		$three.lights.forEach((_, index) => {
+			$three.lights[index].dispose()
+		})
 		three.reset()
 	})
 </script>

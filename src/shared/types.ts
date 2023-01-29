@@ -1,7 +1,7 @@
 import {
 	Clock,
 	Mesh,
-	MeshStandardMaterial,
+	MeshLambertMaterial,
 	PerspectiveCamera,
 	PointLight,
 	Scene,
@@ -26,7 +26,7 @@ export type ThreeState = {
 	domElement?: HTMLElement
 	effect?: AsciiEffect
 	lights: [PointLight, PointLight]
-	material: MeshStandardMaterial
+	material: MeshLambertMaterial
 	mesh: Mesh
 	renderer?: WebGLRenderer
 	rotate: boolean
