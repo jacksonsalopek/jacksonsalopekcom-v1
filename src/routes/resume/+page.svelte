@@ -9,6 +9,7 @@
 	import Skills from 'src/components/resume/Skills.svelte'
 	import Volunteer from 'src/components/resume/Volunteer.svelte'
 	import { onMount } from 'svelte'
+	import { EVENTS, track } from 'src/shared/analytics'
 	import { RESUME } from 'src/shared/resume'
 	import type { ResumeKeys } from 'src/shared/resume'
 
@@ -78,5 +79,12 @@
 		{:else if selection === 'certificates'}
 			<Certificates bind:section={sections.certificates} />
 		{/if}
+	</div>
+	<div class="js-resume-download">
+		<a
+			href="/pdf/Resume-JacksonSalopek.pdf"
+			target="_blank"
+			on:click={() => track(EVENTS.tap.resume.download)}>download</a
+		>
 	</div>
 </div>

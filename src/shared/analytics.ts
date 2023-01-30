@@ -25,7 +25,8 @@ export const EVENTS = {
 			nav: 'JC3KUKOB'
 		},
 		resume: {
-			nav: 'WPIKKFTJ'
+			nav: 'WPIKKFTJ',
+			download: 'CS0O0RZD'
 		}
 	}
 }
