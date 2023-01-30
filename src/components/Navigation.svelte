@@ -10,12 +10,12 @@
 			href: '/works'
 		},
 		{
-			name: 'source',
-			href: 'https://github.com/jacksonsalopek/jacksonsalopekcom'
-		},
-		{
 			name: 'Contact',
 			href: '/contact'
+		},
+		{
+			name: 'source',
+			href: 'https://github.com/jacksonsalopek/jacksonsalopekcom'
 		}
 	]
 </script>
