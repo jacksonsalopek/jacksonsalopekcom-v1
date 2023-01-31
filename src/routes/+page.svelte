@@ -23,7 +23,7 @@
 
 <svelte:head>
 	<title>home | jacksonsalopek.com</title>
-	<meta name="description" content="Home of Jackson Salopek" />
+	<meta name="description" content="Jackson Salopek | Full-stack Software Engineer" />
 </svelte:head>
 <div class="js-home">
 	<div>

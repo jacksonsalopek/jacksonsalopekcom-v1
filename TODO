@@ -1,15 +1,6 @@
-[ ] Resume
-
-- [ ] Experience
-- [ ] Certificates
-- [ ] Volunteer
-- [ ] Languages
-- [ ] Interests
-
-[ ] Works
-[ ] Contact
 [ ] Tests
 [ ] Docs
-[ ] Setup CI/CD pipeline
-
 [ ] Bug fixes
+
+- [ ] FPS drop on landing page
+- [ ] Certain analytics events are not firing

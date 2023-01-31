@@ -49,7 +49,7 @@
 	onMount(() => {
 		if (window.location.hash) selection = window.location.hash.substring(1)
 		else window.location.hash = 'skills'
-		console.log(selection)
+
 		window.onhashchange = (e: HashChangeEvent) => {
 			selection = e.newURL.split('#')[1]
 		}
