@@ -1,0 +1,46 @@
+{
+  "name": "jacksonsalopek",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "astro": "astro",
+    "build": "astro build",
+    "build:storybook": "storybook build",
+    "start:dev": "sst bind astro dev",
+    "start:preview": "sst bind astro preview",
+    "start:storybook": "storybook dev -p 6006",
+    "fmt": "biome format ./src",
+    "fmt:fix": "biome format ./src --write",
+    "lint": "biome check ./src",
+    "lint:fix": "biome check ./src --apply",
+    "sst:deploy": "sst deploy",
+    "sst:dev": "sst dev"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^1.1.0",
+    "@astrojs/solid-js": "^3.0.1",
+    "astro": "^3.1.4",
+    "sass": "^1.68.0",
+    "solid-icons": "^1.0.12",
+    "solid-js": "^1.7.12",
+    "solid-styled-components": "^0.28.5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.2.2",
+    "@storybook/addon-essentials": "^7.4.5",
+    "@storybook/addon-interactions": "^7.4.5",
+    "@storybook/addon-links": "^7.4.5",
+    "@storybook/blocks": "^7.4.5",
+    "@storybook/testing-library": "^0.2.1",
+    "astro-sst": "^2.26.5",
+    "aws-cdk-lib": "2.97.0",
+    "constructs": "10.2.70",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sst": "^2.26.5",
+    "storybook": "^7.4.5",
+    "storybook-solidjs": "^1.0.0-beta.2",
+    "storybook-solidjs-vite": "^1.0.0-beta.2",
+    "vite-tsconfig-paths": "^4.2.1"
+  }
+}

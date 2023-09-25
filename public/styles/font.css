@@ -1,0 +1,135 @@
+/** Normal - Regular */
+@font-face {
+  font-family: 'Basier Square';
+  src: url('/fonts/normal/basiersquare-regular-webfont.woff2') format('woff2'),
+    url('/fonts/normal/basiersquare-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Basier Square';
+  src: url('/fonts/normal/basiersquare-italic-webfont.woff2') format('woff2'),
+    url('/fonts/normal/basiersquare-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/** Normal - Medium */
+@font-face {
+  font-family: 'Basier Square';
+  src: url('/fonts/normal/basiersquare-medium-webfont.woff2') format('woff2'),
+    url('/fonts/normal/basiersquare-medium-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Basier Square';
+  src: url('/fonts/normal/basiersquare-mediumitalic-webfont.woff2') format('woff2'),
+    url('/fonts/normal/basiersquare-mediumitalic-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+/** Normal - SemiBold */
+@font-face {
+  font-family: 'Basier Square';
+  src: url('/fonts/normal/basiersquare-semibold-webfont.woff2') format('woff2'),
+    url('/fonts/normal/basiersquare-semibold-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Basier Square';
+  src: url('/fonts/normal/basiersquare-semibolditalic-webfont.woff2') format('woff2'),
+    url('/fonts/normal/basiersquare-semibolditalic-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+
+/** Normal - Bold */
+@font-face {
+  font-family: 'Basier Square';
+  src: url('/fonts/normal/basiersquare-bold-webfont.woff2') format('woff2'),
+    url('/fonts/normal/basiersquare-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Basier Square';
+  src: url('/fonts/normal/basiersquare-bolditalic-webfont.woff2') format('woff2'),
+    url('/fonts/normal/basiersquare-bolditalic-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/** Mono - Regular */
+@font-face {
+  font-family: 'Basier Square Mono';
+  src: url('/fonts/mono/basiersquaremono-regular-webfont.woff2') format('woff2'),
+    url('/fonts/mono/basiersquaremono-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Basier Square Mono';
+  src: url('/fonts/mono/basiersquaremono-regularitalic-webfont.woff2') format('woff2'),
+    url('/fonts/mono/basiersquaremono-regularitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/** Mono - Medium */
+@font-face {
+  font-family: 'Basier Square Mono';
+  src: url('/fonts/mono/basiersquaremono-medium-webfont.woff2') format('woff2'),
+    url('/fonts/mono/basiersquaremono-medium-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Basier Square Mono';
+  src: url('/fonts/mono/basiersquaremono-mediumitalic-webfont.woff2') format('woff2'),
+    url('/fonts/mono/basiersquaremono-mediumitalic-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+/** Mono - SemiBold */
+@font-face {
+  font-family: 'Basier Square Mono';
+  src: url('/fonts/mono/basiersquaremono-semibold-webfont.woff2') format('woff2'),
+    url('/fonts/mono/basiersquaremono-semibold-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Basier Square Mono';
+  src: url('/fonts/mono/basiersquaremono-semibolditalic-webfont.woff2') format('woff2'),
+    url('/fonts/mono/basiersquaremono-semibolditalic-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+
+/** Mono - Bold */
+@font-face {
+  font-family: 'Basier Square Mono';
+  src: url('/fonts/mono/basiersquaremono-bold-webfont.woff2') format('woff2'),
+    url('/fonts/mono/basiersquaremono-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Basier Square Mono';
+  src: url('/fonts/mono/basiersquaremono-bolditalic-webfont.woff2') format('woff2'),
+    url('/fonts/mono/basiersquaremono-bolditalic-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}

@@ -1,0 +1,39 @@
+{
+  "extends": "astro/tsconfigs/strictest",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "paths": {
+      "@/components": [
+        "./src/components"
+      ],
+      "@/components/*": [
+        "./src/components/*"
+      ],
+      "@/content": [
+        "./src/content"
+      ],
+      "@/content/*": [
+        "./src/content/*"
+      ],
+      "@/layouts": [
+        "./src/layouts"
+      ],
+      "@/layouts/*": [
+        "./src/layouts/*"
+      ],
+      "@/pages": [
+        "./src/pages"
+      ],
+      "@/pages/*": [
+        "./src/pages/*"
+      ],
+      "@/util": [
+        "./src/util"
+      ],
+      "@/util/*": [
+        "./src/util/*"
+      ],
+    }
+  }
+}
